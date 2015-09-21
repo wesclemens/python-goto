@@ -8,7 +8,7 @@ Tested on Python 2.5 through 3.5 and PyPy.
 ## Usage
 
 ```python
-from goto import with_goto
+from __past__ import with_goto
 
 @with_goto
 def range(start, stop):
